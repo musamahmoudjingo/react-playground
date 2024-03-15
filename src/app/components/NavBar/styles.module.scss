@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  justify-content: center;
+
+  li {
+    list-style: none;
+    border: 1px solid transparent;
+    border-radius: var(--border-radius);
+
+    &:hover {
+      background-color: var(--primary-color);
+      border-color: var(--primary-border-color);
+
+      a {
+        color: #ffffff;
+      }
+    }
+
+    a {
+      font-size: 0.9rem;
+      display: block;
+      padding: 5px 10px;
+      font-weight: 700;
+      text-decoration: none;
+      color: var(--text-color);
+    }
+  }
+}

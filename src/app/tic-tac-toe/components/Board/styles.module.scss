@@ -1,0 +1,22 @@
+.board {
+  max-width: 240px;
+}
+.squares {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.tool-bar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.25rem 0;
+}
+
+.message,
+.message * {
+  text-align: center;
+  color: rgb(29, 198, 39);
+}

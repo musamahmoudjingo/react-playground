@@ -1,0 +1,16 @@
+.button {
+  padding: 4px 8px;
+  min-width: 60px;
+  font-weight: 700;
+  font-size: 0.85rem;
+  font-family: var(--font-nunito);
+  background: #80e887;
+  border: 1px solid #4ddd57;
+  border-radius: 4px;
+  color: #014a06;
+}
+
+.button:hover {
+  cursor: pointer;
+  background: #6dcf74;
+}
